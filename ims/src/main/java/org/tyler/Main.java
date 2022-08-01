@@ -1,10 +1,13 @@
-package ims;
+package org.tyler;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
     private static final Scanner scanner = new Scanner(System.in);
-    private static final Inventory inventory = new Inventory();
+
+    private static final HashMap<Integer, Product> products = new HashMap<>();
+    private static final Inventory inventory = new Inventory(products);
 
     private static final Utils utils = new Utils(scanner);
 

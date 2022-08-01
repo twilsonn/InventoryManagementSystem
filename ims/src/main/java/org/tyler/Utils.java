@@ -1,4 +1,4 @@
-package ims;
+package org.tyler;
 
 import java.util.Scanner;
 

@@ -1,14 +1,12 @@
-package ims;
+package org.tyler;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Inventory {
-    private HashMap<Integer, Product> products;
+    private final HashMap<Integer, Product> products;
 
-    public Inventory() {
-        this.products = new HashMap<Integer, Product>();
+    public Inventory(HashMap<Integer, Product> products) {
+        this.products = products;
     }
 
     Product getProduct(int id) {
@@ -16,8 +14,8 @@ public class Inventory {
     }
 
     /**
-     * @param product
-     * @param override
+     * @param product product object to add
+     * @param override if true, product will override existing ID.
      * @return
      * returns true if product addition is successful
      * returns false if there is a conflict with an existing product ID
@@ -34,7 +32,7 @@ public class Inventory {
     }
 
     /**
-     * @param id
+     * @param id product id
      * @return true if remove was successful
      */
     boolean removeProduct(int id) {
@@ -47,7 +45,7 @@ public class Inventory {
     }
 
     /**
-     * @param product
+     * @param product product object to update
      * @return true if update was successful
      */
     boolean updateProduct(Product product) {

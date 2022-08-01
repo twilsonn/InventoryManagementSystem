@@ -1,4 +1,4 @@
-package ims;
+package org.tyler;
 
 public class Logger {
     private static final String ANSI_RED = "\u001B[31m";

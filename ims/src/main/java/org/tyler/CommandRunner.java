@@ -1,9 +1,4 @@
-package ims;
-
-import ims.Inventory;
-import ims.Logger;
-import ims.Product;
-import ims.Utils;
+package org.tyler;
 
 import java.util.Arrays;
 import java.util.List;

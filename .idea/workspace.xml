@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62893df3-fb79-4ef2-a31d-8a6f5c06298a" name="Changes" comment="updated" />
+    <list default="true" id="62893df3-fb79-4ef2-a31d-8a6f5c06298a" name="Changes" comment="updated project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,12 +36,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="ims.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ims.Main" />
-      <module name="InventoryManagementSystem" />
+    <configuration name="org.tyler.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.tyler.Main" />
+      <module name="ims" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ims.*" />
+          <option name="PATTERN" value="org.tyler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,7 +51,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ims.Main" />
+        <item itemvalue="Application.org.tyler.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658952586386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added: Utils class">
+      <created>1658952732496</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658952732496</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added: CommandRunner class">
+      <created>1658952749994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658952749994</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated project">
+      <created>1658952763375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658952763375</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +132,10 @@
     <MESSAGE value="update: changed access restrictions" />
     <MESSAGE value="update: refactored code" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="added: command runner class" />
+    <MESSAGE value="added: Utils class" />
+    <MESSAGE value="added: CommandRunner class" />
+    <MESSAGE value="updated project" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project" />
   </component>
 </project>
