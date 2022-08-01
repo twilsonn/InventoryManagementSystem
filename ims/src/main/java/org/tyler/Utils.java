@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Utils {
     Scanner scanner;
 
-    Utils(Scanner scanner) {
+    public Utils(Scanner scanner) {
         this.scanner = scanner;
     }
     protected int getInput() {
