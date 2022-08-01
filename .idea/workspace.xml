@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62893df3-fb79-4ef2-a31d-8a6f5c06298a" name="Changes" comment="added annotations">
+    <list default="true" id="62893df3-fb79-4ef2-a31d-8a6f5c06298a" name="Changes" comment="added inventory test">
+      <change afterPath="$PROJECT_DIR$/ims/src/test/java/InventoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims/target/test-classes/InventoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims/src/main/java/org/tyler/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims/src/main/java/org/tyler/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims/src/main/java/org/tyler/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims/src/main/java/org/tyler/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims/target/classes/org/tyler/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims/target/classes/org/tyler/Inventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims/target/classes/org/tyler/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims/target/classes/org/tyler/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims/target/classes/org/tyler/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims/target/classes/org/tyler/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,54 +48,51 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProductTest.makeFullProduct">
-    <configuration name="org.tyler.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.tyler.Main" />
-      <module name="ims" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tyler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InventoryTest">
+    <configuration name="InventoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ims" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="InventoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.makeBlankProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryTest.addProductWithConflictOverride" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ims" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="METHOD_NAME" value="makeBlankProduct" />
+      <option name="MAIN_CLASS_NAME" value="InventoryTest" />
+      <option name="METHOD_NAME" value="addProductWithConflictOverride" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.makeFullProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryTest.removeProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ims" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="METHOD_NAME" value="makeFullProduct" />
+      <option name="MAIN_CLASS_NAME" value="InventoryTest" />
+      <option name="METHOD_NAME" value="removeProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.makeProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryTest.removeProductNonExistent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ims" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="METHOD_NAME" value="makeProduct" />
+      <option name="MAIN_CLASS_NAME" value="InventoryTest" />
+      <option name="METHOD_NAME" value="removeProductNonExistent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryTest.updateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InventoryTest" />
+      <option name="METHOD_NAME" value="updateProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductTest.makeFullProduct" />
-        <item itemvalue="JUnit.ProductTest.makeBlankProduct" />
-        <item itemvalue="JUnit.ProductTest" />
-        <item itemvalue="JUnit.ProductTest.makeProduct" />
-        <item itemvalue="Application.org.tyler.Main" />
+        <item itemvalue="JUnit.InventoryTest" />
+        <item itemvalue="JUnit.InventoryTest.updateProduct" />
+        <item itemvalue="JUnit.InventoryTest.removeProductNonExistent" />
+        <item itemvalue="JUnit.InventoryTest.removeProduct" />
+        <item itemvalue="JUnit.InventoryTest.addProductWithConflictOverride" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +180,42 @@
       <option name="project" value="LOCAL" />
       <updated>1659354588909</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated var controls">
+      <created>1659366889492</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659366889492</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added dep injection to inventory">
+      <created>1659366911519</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659366911519</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added junit">
+      <created>1659366927225</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659366927225</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updated access type">
+      <created>1659366954257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659366954257</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added product test">
+      <created>1659366965840</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659366965840</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +240,12 @@
     <MESSAGE value="updated project" />
     <MESSAGE value="updated project files" />
     <MESSAGE value="added annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added annotations" />
+    <MESSAGE value="updated var controls" />
+    <MESSAGE value="added dep injection to inventory" />
+    <MESSAGE value="added junit" />
+    <MESSAGE value="updated access type" />
+    <MESSAGE value="added product test" />
+    <MESSAGE value="added inventory test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added inventory test" />
   </component>
 </project>
