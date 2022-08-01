@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="62893df3-fb79-4ef2-a31d-8a6f5c06298a" name="Changes" comment="updated project" />
+    <list default="true" id="62893df3-fb79-4ef2-a31d-8a6f5c06298a" name="Changes" comment="added annotations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims/src/main/java/org/tyler/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims/src/main/java/org/tyler/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims/target/classes/org/tyler/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims/target/classes/org/tyler/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims/target/classes/org/tyler/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims/target/classes/org/tyler/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims/target/classes/org/tyler/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims/target/classes/org/tyler/Utils.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.ProductTest.makeFullProduct">
     <configuration name="org.tyler.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tyler.Main" />
       <module name="ims" />
@@ -49,8 +63,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.makeBlankProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="makeBlankProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.makeFullProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="makeFullProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.makeProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="makeProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductTest.makeFullProduct" />
+        <item itemvalue="JUnit.ProductTest.makeBlankProduct" />
+        <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="JUnit.ProductTest.makeProduct" />
         <item itemvalue="Application.org.tyler.Main" />
       </list>
     </recent_temporary>
@@ -113,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658952763375</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated project files">
+      <created>1659354450525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659354450525</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added annotations">
+      <created>1659354588909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659354588909</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +207,8 @@
     <MESSAGE value="added: Utils class" />
     <MESSAGE value="added: CommandRunner class" />
     <MESSAGE value="updated project" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated project" />
+    <MESSAGE value="updated project files" />
+    <MESSAGE value="added annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added annotations" />
   </component>
 </project>
