@@ -15,7 +15,7 @@ public class Inventory {
      * @param id product id
      * @return returns product or null
      */
-    Product getProduct(int id) {
+    public Product getProduct(int id) {
         return products.get(id);
     }
 
@@ -26,7 +26,7 @@ public class Inventory {
      * returns true if product addition is successful
      * returns false if there is a conflict with an existing product ID
      */
-    boolean addProduct(@NotNull Product product, boolean override) {
+    public boolean addProduct(@NotNull Product product, boolean override) {
         // if override is not enabled and product ID exists in map, return false
         if (!override && products.containsKey(product.getId())) {
             return false;
@@ -41,7 +41,7 @@ public class Inventory {
      * @param id product id
      * @return true if remove was successful
      */
-    boolean removeProduct(int id) {
+    public boolean removeProduct(int id) {
         if (!products.containsKey(id)) {
             return false;
         }
@@ -54,7 +54,7 @@ public class Inventory {
      * @param product product object to update
      * @return true if update was successful
      */
-    boolean updateProduct(@NotNull Product product) {
+    public boolean updateProduct(@NotNull Product product) {
         if (!products.containsKey(product.getId())) {
             return false;
         }
